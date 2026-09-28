@@ -60,3 +60,15 @@ Develop a modern **data warehouse using SQL Server** to consolidate sales data f
 * **Processing Approach:** Use an **ELT approach**, loading raw data first and performing transformations within SQL Server.
 * **Scope:** Focus on the latest available dataset; historical data tracking and historization are not required.
 
+
+### BI: Analytics & Reporting (Data Analysis)
+
+#### Objective
+
+Develop **SQL-based analytics and reporting** to generate actionable insights into:
+
+* **Customer Behavior**
+* **Product Performance**
+* **Sales Trends**
+
+These insights provide stakeholders with **key business metrics and data-driven insights**, supporting informed decision-making and a better understanding of business performance.
