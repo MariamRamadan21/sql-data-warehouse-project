@@ -31,3 +31,13 @@ This project involves:
 4. **Analytics & Reporting**: Creating **SQL-based reports and analytical queries** to generate actionable business insights.
 
 
+
+## 🛠️ Important Links & Tools
+
+The tools and resources used in this project are freely available:
+
+* **Datasets**: CSV files used as the source data for the data warehouse.
+* **SQL Server Express**: Database engine used to build and host the data warehouse.
+* **SQL Server Management Studio (SSMS)**: Used to develop, execute, and manage SQL scripts and databases.
+* **GitHub**: Used for version control and project documentation.
+
