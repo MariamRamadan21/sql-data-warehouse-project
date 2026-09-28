@@ -40,4 +40,23 @@ The tools and resources used in this project are freely available:
 * **SQL Server Express**: Database engine used to build and host the data warehouse.
 * **SQL Server Management Studio (SSMS)**: Used to develop, execute, and manage SQL scripts and databases.
 * **GitHub**: Used for version control and project documentation.
+  
+
+## 🚀 Project Requirements
+
+### Building the Data Warehouse (Data Engineering)
+
+#### Objective
+
+Develop a modern **data warehouse using SQL Server** to consolidate sales data from multiple source systems, enabling efficient analytical reporting and supporting data-driven decision-making.
+
+#### Specifications
+
+* **Data Sources:** Import sales data from two source systems, **ERP and CRM**, provided as CSV files.
+* **Data Quality:** Identify, cleanse, and resolve data quality issues before loading the data into the analytical layer.
+* **Data Integration:** Integrate data from both source systems into a unified, user-friendly data model optimized for analytical queries.
+* **Architecture:** Implement a **Medallion Architecture** with Bronze, Silver, and Gold layers.
+* **Data Modeling:** Build a **Star Schema** consisting of fact and dimension tables in the Gold layer.
+* **Processing Approach:** Use an **ELT approach**, loading raw data first and performing transformations within SQL Server.
+* **Scope:** Focus on the latest available dataset; historical data tracking and historization are not required.
 
