@@ -9,8 +9,16 @@ The project follows a **Medallion Architecture** consisting of Bronze, Silver, a
 The goal of this project is to demonstrate practical skills in **data warehousing, SQL development, data transformation, dimensional modeling, and analytics**, following industry best practices.
 
 
-Data Architecture
-The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers
+## Data Architecture
+
+![Data Architecture](docs/data_architecture.png)
+
+The project follows a **Medallion Architecture** consisting of three main layers:
+
+* **Bronze Layer:** Stores raw data as-is from the source systems, preserving the original data for traceability and reprocessing.
+* **Silver Layer:** Cleans, validates, and transforms the raw data to prepare it for analytical use.
+* **Gold Layer:** Contains business-ready data organized into a **Star Schema** with fact and dimension tables for reporting and analytics.
+
 
 ![Data Architecture](docs/data_architecture.png)
 
