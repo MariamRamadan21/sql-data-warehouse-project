@@ -21,5 +21,13 @@ The project follows a **Medallion Architecture** consisting of three main layers
 * **Gold Layer:** Contains business-ready data organized into a **Star Schema** with fact and dimension tables for reporting and analytics.
 
 
+## 📖 Project Overview
+
+This project involves:
+
+1. **Data Architecture**: Designing a modern data warehouse using **Medallion Architecture**, consisting of **Bronze, Silver, and Gold** layers.
+2. **ELT Pipelines**: Extracting and loading data from source systems, then transforming it within the data warehouse.
+3. **Data Modeling**: Developing **fact and dimension tables** organized into a **Star Schema** for efficient analytical querying.
+4. **Analytics & Reporting**: Creating **SQL-based reports and analytical queries** to generate actionable business insights.
 
 
