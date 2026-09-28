@@ -20,5 +20,5 @@ The project follows a **Medallion Architecture** consisting of three main layers
 * **Gold Layer:** Contains business-ready data organized into a **Star Schema** with fact and dimension tables for reporting and analytics.
 
 
-![Data Architecture](docs/data_architecture.png)
+
 
