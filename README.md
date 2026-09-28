@@ -77,20 +77,25 @@ These insights provide stakeholders with **key business metrics and data-driven 
 
 ## Project Directory Structure
 
-data-warehouse-project/
+## 📂 Project Structure
+
+```text
+sql-data-warehouse-project/
 │
-├── datasets/               # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                         # Raw ERP and CRM datasets
 │
-├── docs/                   # Project documentation and architecture diagrams
-│   ├── data_architecture.drawio   # Draw.io file shows the project's architecture
-│   ├── data_flow.drawio          # Draw.io file for the data flow diagram
-│   └── data_models.drawio        # Draw.io file for data models (star schema)
+├── docs/                             # Project documentation and architecture diagrams
+│   ├── data_architecture.png        # Data warehouse architecture diagram
+│   ├── data_flow.png                # Data flow diagram
+│   └── data_models.png              # Star schema data model
 │
-├── scripts/                # SQL scripts for ETL and transformations
-│   ├── bronze/             # Scripts for extracting and loading raw data
-│   ├── silver/             # Scripts for cleaning and transforming data
-│   └── gold/               # Scripts for creating analytical models
+├── scripts/                          # SQL scripts for data loading and transformations
+│   ├── bronze/                       # Scripts for loading raw source data
+│   ├── silver/                       # Scripts for cleaning and transforming data
+│   └── gold/                         # Scripts for creating analytical models
 │
-├── tests/                  # Test scripts and quality files
+├── tests/                            # Data quality and validation scripts
 │
-└── README.md               # Project overview and instructions
+└── README.md                         # Project documentation and instructions
+```
+
